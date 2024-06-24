@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7f8;
+  font-family: "Inter", sans-serif;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.calculator {
+  max-width: 250px;
+  width: 90%;
+  height: 440px;
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* .keypad {
+  margin: 0 auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+} */
+.keypad .wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.keypad button {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f97300;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.calculator .display {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 26px;
+  height: 60px;
+}
+.display .result {
+  display: block;
+  font-weight: 600;
+  text-align: right;
+}
+.copyright {
+  margin: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+.copyright span {
+  color: red;
+}
+.copyright a {
+  color: #111;
+  text-decoration: none;
+}
+.copyright a:hover {
+  color: blue;
+}
